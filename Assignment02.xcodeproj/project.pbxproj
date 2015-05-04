@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		04834AA91AF6FDFA00DB770D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04834AA81AF6FDFA00DB770D /* AppDelegate.swift */; };
-		04834AAB1AF6FDFA00DB770D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04834AAA1AF6FDFA00DB770D /* ViewController.swift */; };
-		04834AAE1AF6FDFA00DB770D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04834AAC1AF6FDFA00DB770D /* Main.storyboard */; };
+		04834AAB1AF6FDFA00DB770D /* PaintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04834AAA1AF6FDFA00DB770D /* PaintViewController.swift */; };
 		04834AB01AF6FDFA00DB770D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04834AAF1AF6FDFA00DB770D /* Images.xcassets */; };
-		04834AB31AF6FDFA00DB770D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04834AB11AF6FDFA00DB770D /* LaunchScreen.xib */; };
 		04834ABF1AF6FDFA00DB770D /* Assignment02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04834ABE1AF6FDFA00DB770D /* Assignment02Tests.swift */; };
+		04834AC91AF7013400DB770D /* PaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04834AC81AF7013400DB770D /* PaintView.swift */; };
+		04834ACB1AF7015000DB770D /* PaintData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04834ACA1AF7015000DB770D /* PaintData.swift */; };
+		04834ACD1AF7019500DB770D /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04834ACC1AF7019500DB770D /* WatchView.swift */; };
+		04834ACF1AF701E700DB770D /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04834ACE1AF701E700DB770D /* MenuController.swift */; };
+		04834AD11AF7067800DB770D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04834AD01AF7067800DB770D /* Default-568h@2x.png */; };
+		04834AD31AF7072F00DB770D /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04834AD21AF7072F00DB770D /* Drawing.swift */; };
+		04834AD51AF72BC000DB770D /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04834AD41AF72BC000DB770D /* ColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +34,18 @@
 		04834AA31AF6FDFA00DB770D /* Assignment02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04834AA71AF6FDFA00DB770D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04834AA81AF6FDFA00DB770D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04834AAA1AF6FDFA00DB770D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04834AAD1AF6FDFA00DB770D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04834AAA1AF6FDFA00DB770D /* PaintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintViewController.swift; sourceTree = "<group>"; };
 		04834AAF1AF6FDFA00DB770D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		04834AB21AF6FDFA00DB770D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04834AB81AF6FDFA00DB770D /* Assignment02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04834ABD1AF6FDFA00DB770D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04834ABE1AF6FDFA00DB770D /* Assignment02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment02Tests.swift; sourceTree = "<group>"; };
+		04834AC81AF7013400DB770D /* PaintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintView.swift; sourceTree = "<group>"; };
+		04834ACA1AF7015000DB770D /* PaintData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintData.swift; sourceTree = "<group>"; };
+		04834ACC1AF7019500DB770D /* WatchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchView.swift; sourceTree = "<group>"; };
+		04834ACE1AF701E700DB770D /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		04834AD01AF7067800DB770D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		04834AD21AF7072F00DB770D /* Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		04834AD41AF72BC000DB770D /* ColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 		04834A9A1AF6FDFA00DB770D = {
 			isa = PBXGroup;
 			children = (
+				04834AD01AF7067800DB770D /* Default-568h@2x.png */,
 				04834AA51AF6FDFA00DB770D /* Assignment02 */,
 				04834ABB1AF6FDFA00DB770D /* Assignment02Tests */,
 				04834AA41AF6FDFA00DB770D /* Products */,
@@ -78,10 +89,14 @@
 			isa = PBXGroup;
 			children = (
 				04834AA81AF6FDFA00DB770D /* AppDelegate.swift */,
-				04834AAA1AF6FDFA00DB770D /* ViewController.swift */,
-				04834AAC1AF6FDFA00DB770D /* Main.storyboard */,
+				04834AAA1AF6FDFA00DB770D /* PaintViewController.swift */,
+				04834AC81AF7013400DB770D /* PaintView.swift */,
+				04834AD41AF72BC000DB770D /* ColorView.swift */,
+				04834ACA1AF7015000DB770D /* PaintData.swift */,
+				04834AD21AF7072F00DB770D /* Drawing.swift */,
+				04834ACC1AF7019500DB770D /* WatchView.swift */,
+				04834ACE1AF701E700DB770D /* MenuController.swift */,
 				04834AAF1AF6FDFA00DB770D /* Images.xcassets */,
-				04834AB11AF6FDFA00DB770D /* LaunchScreen.xib */,
 				04834AA61AF6FDFA00DB770D /* Supporting Files */,
 			);
 			path = Assignment02;
@@ -192,9 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04834AAE1AF6FDFA00DB770D /* Main.storyboard in Resources */,
-				04834AB31AF6FDFA00DB770D /* LaunchScreen.xib in Resources */,
 				04834AB01AF6FDFA00DB770D /* Images.xcassets in Resources */,
+				04834AD11AF7067800DB770D /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +226,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04834AAB1AF6FDFA00DB770D /* ViewController.swift in Sources */,
+				04834ACB1AF7015000DB770D /* PaintData.swift in Sources */,
+				04834AD31AF7072F00DB770D /* Drawing.swift in Sources */,
+				04834AAB1AF6FDFA00DB770D /* PaintViewController.swift in Sources */,
+				04834ACD1AF7019500DB770D /* WatchView.swift in Sources */,
+				04834AD51AF72BC000DB770D /* ColorView.swift in Sources */,
 				04834AA91AF6FDFA00DB770D /* AppDelegate.swift in Sources */,
+				04834ACF1AF701E700DB770D /* MenuController.swift in Sources */,
+				04834AC91AF7013400DB770D /* PaintView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +254,6 @@
 			targetProxy = 04834AB91AF6FDFA00DB770D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		04834AAC1AF6FDFA00DB770D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04834AAD1AF6FDFA00DB770D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		04834AB11AF6FDFA00DB770D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04834AB21AF6FDFA00DB770D /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		04834AC01AF6FDFA00DB770D /* Debug */ = {
